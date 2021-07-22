@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accessusers",
+  "info": {
+    "name": "accessuser",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    },
+    "todolist": {
+      "type": "json"
+    }
+  }
+}

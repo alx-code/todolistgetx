@@ -1,0 +1,53 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/access-logins",
+      "handler": "access-login.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/access-logins/count",
+      "handler": "access-login.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/access-logins/:id",
+      "handler": "access-login.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/access-logins",
+      "handler": "access-login.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/access-logins/:id",
+      "handler": "access-login.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/access-logins/:id",
+      "handler": "access-login.delete",
+      "config": {
+        "policies": []
+      }
+    }
+
+  ]
+}

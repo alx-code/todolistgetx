@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "access_logins",
+  "info": {
+    "name": "Access",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userEmail": {
+      "type": "string"
+    },
+    "userPassword": {
+      "type": "string"
+    },
+    "todolist": {
+      "type": "json"
+    }
+  }
+}

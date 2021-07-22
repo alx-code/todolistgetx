@@ -1,0 +1,61 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/accessusers",
+      "handler": "accessuser.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/accessusers/count",
+      "handler": "accessuser.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/accessusers/email/:user",
+      "handler": "accessuser.findEmail",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/accessusers/:id",
+      "handler": "accessuser.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/accessusers",
+      "handler": "accessuser.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/accessusers/:id",
+      "handler": "accessuser.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/accessusers/:id",
+      "handler": "accessuser.delete",
+      "config": {
+        "policies": []
+      }
+    }
+    
+  ]
+}
